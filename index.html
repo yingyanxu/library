@@ -28,6 +28,37 @@
 
     </table>
 
+    <div class="modal">
+        <div class="form">
+            <span class="close">&times;</span>
+            <h2>Add Book</h2>
+
+            <form action="" method="post">
+                <div class="input">
+                    <label for="title">Title:</label>
+                    <input class = "write" type="text" id="title" name="title" placeholder="Jane Eyre" required>
+                </div>
+
+                <div class="input">
+                    <label for="author">Author:</label>
+                    <input class = "write" type="text" id="author" name="author" placeholder="Charlotte Bronte" required>
+                </div>
+                
+                <div class="input">
+                    <label for="pages">Pages:</label>
+                    <input class = "write" type="number" id="pages" name="pages" placeholder="290" min="0" required>
+                </div>
+
+                <div class="input">
+                    <label for="read">Have you read the book?</label>
+                    <input class="check" type="checkbox" id="read" name="read" value="read">
+                </div>
+
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
 
     <script src="script.js"></script>
     

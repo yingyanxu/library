@@ -21,5 +21,17 @@ function Book(title, author, pages, isRead) {
 }
 
 function addBookToLibrary() {
-
 }
+
+
+const modal = document.querySelector(".modal");
+
+const add = document.querySelector(".add");
+add.addEventListener("click", () => {
+    modal.style.display = "flex";
+});
+
+const close = document.querySelector(".close");
+close.addEventListener("click", () => {
+    modal.style.display = "none";   
+})
